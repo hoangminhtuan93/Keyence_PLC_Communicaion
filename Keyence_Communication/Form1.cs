@@ -48,11 +48,31 @@ namespace Keyence_Communication
         {
             if (!sp_main.IsOpen)
             {
-                sp_main.PortName = cbo_port.Text; 
+                sp_main.PortName = cbo_port.Text;
             }
             string command = "CQ\r\n";
             sp_main.Write(command);
             rtb_result.Text += sp_main.ReadLine();
+        }
+
+        private void btn_read_Click(object sender, EventArgs e)
+        {
+            if (sp_main.IsOpen)
+            {
+                string str_cmd = "RD " + txt_device_type.Text + txt_device_number.Text + txt_data_format.Text + "\r";
+                sp_main.Write(str_cmd);
+                rtb_result.Text += sp_main.ReadLine();
+            }
+        }
+
+        private void btn_write_Click(object sender, EventArgs e)
+        {
+            if (sp_main.IsOpen)
+            {
+                string str_cmd = "WR " + txt_device_type.Text + txt_device_number.Text + txt_data_format.Text + " " + txt_data.Text + "\r";
+                sp_main.Write(str_cmd);
+                rtb_result.Text += sp_main.ReadLine();
+            }
         }
     }
 }
