@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JDjsJ10NZVWahgmJ7uPmFfZSOOcrdufBI5YYfQsFJ+sL/aLvVCds7VO1Bj2054S2/O7h2aslCTWTlIxSfyuTzQ==",
+  "dgSpecHash": "fEHvEImZ0uAo7Uo2vuQDhObktXruFehx+ap1MU+hD9dKBG3Y/x9nACt1CMvmf9ujEsfnmXTbuQnjHF3AvrsxKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Minh Tuan\\source\\repos\\Keyence_PLC_Communicaion2\\Keyence_Communication\\Keyence_Communication.csproj",
+  "projectFilePath": "C:\\Users\\Minh Tuan\\source\\repos\\Keyence_PLC_Communicaion\\Keyence_Communication\\Keyence_Communication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Minh Tuan\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Minh Tuan\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

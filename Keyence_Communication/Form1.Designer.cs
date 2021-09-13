@@ -218,7 +218,7 @@ namespace Keyence_Communication
             this.Controls.Add(this.cbo_port);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Keyence Communication";
+            this.Text = "Host Link";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

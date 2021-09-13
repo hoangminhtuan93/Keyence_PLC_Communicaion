@@ -21,8 +21,9 @@ namespace Keyence_Communication
             sp_main.DataBits = 8;
             sp_main.StopBits = StopBits.One;
             sp_main.Parity = Parity.Even;
+            //sp_main.DataReceived += new SerialDataReceivedEventHandler(DataReceivedHandler); 
         }
-
+         
         private void Form1_Load(object sender, EventArgs e)
         {
             string[] arr_port_list = SerialPort.GetPortNames();
@@ -73,6 +74,20 @@ namespace Keyence_Communication
                 sp_main.Write(str_cmd);
                 rtb_result.Text += sp_main.ReadLine();
             }
+        }
+
+        private void btn_open_tran_Click(object sender, EventArgs e)
+        {
+            sp_main.PortName = cbo_port.Text;
+            sp_main.Open();
+            
+        }
+        private static void DataReceivedHandler(object sender, SerialDataReceivedEventArgs e)
+        {
+            SerialPort sp = (SerialPort)sender;
+            string indata = sp.ReadExisting();
+            Console.WriteLine("Data Received:");
+            Console.Write(indata);
         }
     }
 }

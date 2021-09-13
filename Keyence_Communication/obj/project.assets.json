@@ -438,11 +438,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Minh Tuan\\source\\repos\\Keyence_PLC_Communicaion2\\Keyence_Communication\\Keyence_Communication.csproj",
+      "projectUniqueName": "C:\\Users\\Minh Tuan\\source\\repos\\Keyence_PLC_Communicaion\\Keyence_Communication\\Keyence_Communication.csproj",
       "projectName": "Keyence_Communication",
-      "projectPath": "C:\\Users\\Minh Tuan\\source\\repos\\Keyence_PLC_Communicaion2\\Keyence_Communication\\Keyence_Communication.csproj",
+      "projectPath": "C:\\Users\\Minh Tuan\\source\\repos\\Keyence_PLC_Communicaion\\Keyence_Communication\\Keyence_Communication.csproj",
       "packagesPath": "C:\\Users\\Minh Tuan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Minh Tuan\\source\\repos\\Keyence_PLC_Communicaion2\\Keyence_Communication\\obj\\",
+      "outputPath": "C:\\Users\\Minh Tuan\\source\\repos\\Keyence_PLC_Communicaion\\Keyence_Communication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Minh Tuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
