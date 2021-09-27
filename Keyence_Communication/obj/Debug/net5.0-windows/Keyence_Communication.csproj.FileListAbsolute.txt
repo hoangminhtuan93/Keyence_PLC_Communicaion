@@ -80,3 +80,4 @@ C:\Users\Minh Tuan\source\repos\Keyence_PLC_Communicaion\Keyence_Communication\o
 C:\Users\Minh Tuan\source\repos\Keyence_PLC_Communicaion\Keyence_Communication\obj\Debug\net5.0-windows\Keyence_Communication.pdb
 C:\Users\Minh Tuan\source\repos\Keyence_PLC_Communicaion\Keyence_Communication\obj\Debug\net5.0-windows\Keyence_Communication.genruntimeconfig.cache
 C:\Users\Minh Tuan\source\repos\Keyence_PLC_Communicaion\Keyence_Communication\obj\Debug\net5.0-windows\Keyence_Communication.Text_transmission.resources
+C:\Users\Minh Tuan\source\repos\Keyence_PLC_Communicaion\Keyence_Communication\obj\Debug\net5.0-windows\Keyence_Communication.frm_monitoring.resources
